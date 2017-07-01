@@ -25,7 +25,7 @@ Running
 ===
 The basic command is this:
 
-    docker run --device=/dev/ttyUSB0 -v /etc/localtime:/etc/localtime -v /SOMEPATH/domoticz.db:/root/domoticz/domoticz.db:rw -p 8080:8080 --name domoticz --restart=always -d my_domoticz
+     docker run --device=/dev/ttyACM0 -v /etc/localtime:/etc/localtime -v /SOMEPATH/domoticz.db:/root/domoticz/domoticz.db:rw -p 8080:8080 --name domoticz --restart=always -d rpi-domoticz:beta
 
 
 Explanations
